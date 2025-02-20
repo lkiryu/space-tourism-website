@@ -16,7 +16,7 @@ export default function Home() {
         </p>
       </div>
       <Link
-        to="/"
+        to="destination"
         className="font-Bellefair text-dark-blue flex h-[272px] w-[272px] items-center justify-center rounded-full bg-white text-4xl uppercase transition-all"
       >
         Explore
