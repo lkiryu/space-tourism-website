@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
+import Crew from "./pages/Crew";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
             element={<Navigate to="/destination/Moon" replace />}
           />
           <Route path="destination/:id" element={<Destinations />} />
+          <Route path="crew" element={<Navigate to="Commander" replace />} />
+          <Route path="crew/:id" element={<Crew />} />
         </Route>
       </Routes>
     </BrowserRouter>
