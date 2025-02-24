@@ -26,7 +26,7 @@ export default function Destinations() {
             className={({ isActive }) =>
               `relative font-extralight tracking-widest uppercase after:absolute after:-bottom-3 after:left-0 after:h-1 after:transition-all after:content-[''] hover:after:w-full ${isActive ? "text-white after:w-full after:bg-white" : "after:bg-light-gray text-light-blue after:w-0"}`
             }
-            to="/destination/Moon"
+            to="/destination/moon"
           >
             Moon
           </NavLink>
@@ -34,7 +34,7 @@ export default function Destinations() {
             className={({ isActive }) =>
               `relative font-extralight tracking-widest uppercase after:absolute after:-bottom-3 after:left-0 after:h-1 after:transition-all after:content-[''] hover:after:w-full ${isActive ? "text-white after:w-full after:bg-white" : "after:bg-light-gray text-light-blue after:w-0"}`
             }
-            to="/destination/Mars"
+            to="/destination/mars"
           >
             Mars
           </NavLink>
@@ -42,7 +42,7 @@ export default function Destinations() {
             className={({ isActive }) =>
               `relative font-extralight tracking-widest uppercase after:absolute after:-bottom-3 after:left-0 after:h-1 after:transition-all after:content-[''] hover:after:w-full ${isActive ? "text-white after:w-full after:bg-white" : "after:bg-light-gray text-light-blue after:w-0"}`
             }
-            to="/destination/Europa"
+            to="/destination/europa"
           >
             Europa
           </NavLink>
@@ -50,7 +50,7 @@ export default function Destinations() {
             className={({ isActive }) =>
               `relative font-extralight tracking-widest uppercase after:absolute after:-bottom-3 after:left-0 after:h-1 after:transition-all after:content-[''] hover:after:w-full ${isActive ? "text-white after:w-full after:bg-white" : "after:bg-light-gray text-light-blue after:w-0"}`
             }
-            to="/destination/Titan"
+            to="/destination/titan"
           >
             Titan
           </NavLink>

@@ -29,25 +29,25 @@ export default function Crew() {
         </div>
         <nav className="flex gap-10">
           <NavLink
-            to="/crew/Commander"
+            to="/crew/commander"
             className={({ isActive }) =>
               `rounded-full p-2 transition-all ${isActive ? "bg-white" : "bg-dark-gray opacity-15 hover:opacity-50"}`
             }
           ></NavLink>
           <NavLink
-            to="/crew/Mission"
+            to="/crew/mission"
             className={({ isActive }) =>
               `rounded-full p-2 transition-all ${isActive ? "bg-white" : "bg-dark-gray opacity-15 hover:opacity-50"}`
             }
           ></NavLink>
           <NavLink
-            to="/crew/Pilot"
+            to="/crew/pilot"
             className={({ isActive }) =>
               `rounded-full p-2 transition-all ${isActive ? "bg-white" : "bg-dark-gray opacity-15 hover:opacity-50"}`
             }
           ></NavLink>
           <NavLink
-            to="/crew/Flight"
+            to="/crew/flight"
             className={({ isActive }) =>
               `rounded-full p-2 transition-all ${isActive ? "bg-white" : "bg-dark-gray opacity-15 hover:opacity-50"}`
             }
